@@ -1,0 +1,22 @@
+/* .title{
+    position: relative;
+}
+.title::after{
+    content: "";
+    width: 25%;
+    height: 3px;
+    background-color: gray;
+    position: absolute;
+    bottom: 105%;
+    left: 0;
+}
+
+.title::before{
+    content: "";
+    width: 70%;
+    height: 3px;
+    background-color: gray;
+    position: absolute;
+    top: 105%;
+    left: 0;
+} */

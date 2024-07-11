@@ -1,0 +1,74 @@
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Black+Ops+One&display=swap');
+
+$mainColor: #131722;
+body {
+   background-color: $mainColor;
+   color:#fff;
+     font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.brdr {
+   height: 1px;
+   background-color: rgb(59, 59, 59);
+   margin: 20px 0;
+}
+
+input {
+  background-color: transparent !important;
+  color: white !important;
+
+  &::-webkit-input-placeholder {
+    text-align: center;
+    color: white !important;
+  }
+
+  &::-webkit-input-placeholder, &::-moz-placeholder, &:-ms-input-placeholder, &::-ms-input-placeholder, &::placeholder {
+    text-align: center;
+    color: white !important;
+  }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h6 {
+  color: white !important;
+}
+
+.active {
+  color: #2CCCF2 !important;
+}
+
+li a:hover {
+  color: #2CCCF2 !important;
+  -o-transition: all .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+i:hover {
+  color: #2CCCF2;
+  -o-transition: all .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.show_more {
+  position: relative;
+  left: 38%;
+  bottom: 20px;
+}
+
+input {
+  &::-webkit-input-placeholder {
+    color: #2CCCF2 !important;
+  }
+  &::-webkit-input-placeholder, &::-moz-placeholder, &::-ms-input-placeholder, &:-ms-input-placeholder, &::placeholder {
+    color: #2CCCF2 !important;
+  }
+}
